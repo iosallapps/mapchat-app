@@ -12,50 +12,50 @@
 			containerPortal = A585030C2F3A618500C444DF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A58503132F3A618500C444DF;
-			remoteInfo = Mapply;
+			remoteInfo = MapChat;
 		};
 		A58503332F3A618700C444DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A585030C2F3A618500C444DF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A58503132F3A618500C444DF;
-			remoteInfo = Mapply;
+			remoteInfo = MapChat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A58503142F3A618500C444DF /* Mapply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapply.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A58503282F3A618700C444DF /* MapplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A58503322F3A618700C444DF /* MapplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58503142F3A618500C444DF /* MapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58503282F3A618700C444DF /* MapChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58503322F3A618700C444DF /* MapChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A585033A2F3A618700C444DF /* Exceptions for "Mapply" folder in "Mapply" target */ = {
+		A585033A2F3A618700C444DF /* Exceptions for "MapChat" folder in "MapChat" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = A58503132F3A618500C444DF /* Mapply */;
+			target = A58503132F3A618500C444DF /* MapChat */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A58503162F3A618500C444DF /* Mapply */ = {
+		A58503162F3A618500C444DF /* MapChat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				A585033A2F3A618700C444DF /* Exceptions for "Mapply" folder in "Mapply" target */,
+				A585033A2F3A618700C444DF /* Exceptions for "MapChat" folder in "MapChat" target */,
 			);
-			path = Mapply;
+			path = MapChat;
 			sourceTree = "<group>";
 		};
-		A585032B2F3A618700C444DF /* MapplyTests */ = {
+		A585032B2F3A618700C444DF /* MapChatTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MapplyTests;
+			path = MapChatTests;
 			sourceTree = "<group>";
 		};
-		A58503352F3A618700C444DF /* MapplyUITests */ = {
+		A58503352F3A618700C444DF /* MapChatUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MapplyUITests;
+			path = MapChatUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +88,9 @@
 		A585030B2F3A618500C444DF = {
 			isa = PBXGroup;
 			children = (
-				A58503162F3A618500C444DF /* Mapply */,
-				A585032B2F3A618700C444DF /* MapplyTests */,
-				A58503352F3A618700C444DF /* MapplyUITests */,
+				A58503162F3A618500C444DF /* MapChat */,
+				A585032B2F3A618700C444DF /* MapChatTests */,
+				A58503352F3A618700C444DF /* MapChatUITests */,
 				A58503152F3A618500C444DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		A58503152F3A618500C444DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A58503142F3A618500C444DF /* Mapply.app */,
-				A58503282F3A618700C444DF /* MapplyTests.xctest */,
-				A58503322F3A618700C444DF /* MapplyUITests.xctest */,
+				A58503142F3A618500C444DF /* MapChat.app */,
+				A58503282F3A618700C444DF /* MapChatTests.xctest */,
+				A58503322F3A618700C444DF /* MapChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A58503132F3A618500C444DF /* Mapply */ = {
+		A58503132F3A618500C444DF /* MapChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A585033B2F3A618700C444DF /* Build configuration list for PBXNativeTarget "Mapply" */;
+			buildConfigurationList = A585033B2F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapChat" */;
 			buildPhases = (
 				A58503102F3A618500C444DF /* Sources */,
 				A58503112F3A618500C444DF /* Frameworks */,
@@ -121,18 +121,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A58503162F3A618500C444DF /* Mapply */,
+				A58503162F3A618500C444DF /* MapChat */,
 			);
-			name = Mapply;
+			name = MapChat;
 			packageProductDependencies = (
 			);
-			productName = Mapply;
-			productReference = A58503142F3A618500C444DF /* Mapply.app */;
+			productName = MapChat;
+			productReference = A58503142F3A618500C444DF /* MapChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A58503272F3A618700C444DF /* MapplyTests */ = {
+		A58503272F3A618700C444DF /* MapChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A58503402F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapplyTests" */;
+			buildConfigurationList = A58503402F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapChatTests" */;
 			buildPhases = (
 				A58503242F3A618700C444DF /* Sources */,
 				A58503252F3A618700C444DF /* Frameworks */,
@@ -144,18 +144,18 @@
 				A585032A2F3A618700C444DF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A585032B2F3A618700C444DF /* MapplyTests */,
+				A585032B2F3A618700C444DF /* MapChatTests */,
 			);
-			name = MapplyTests;
+			name = MapChatTests;
 			packageProductDependencies = (
 			);
-			productName = MapplyTests;
-			productReference = A58503282F3A618700C444DF /* MapplyTests.xctest */;
+			productName = MapChatTests;
+			productReference = A58503282F3A618700C444DF /* MapChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A58503312F3A618700C444DF /* MapplyUITests */ = {
+		A58503312F3A618700C444DF /* MapChatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A58503432F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapplyUITests" */;
+			buildConfigurationList = A58503432F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapChatUITests" */;
 			buildPhases = (
 				A585032E2F3A618700C444DF /* Sources */,
 				A585032F2F3A618700C444DF /* Frameworks */,
@@ -167,13 +167,13 @@
 				A58503342F3A618700C444DF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A58503352F3A618700C444DF /* MapplyUITests */,
+				A58503352F3A618700C444DF /* MapChatUITests */,
 			);
-			name = MapplyUITests;
+			name = MapChatUITests;
 			packageProductDependencies = (
 			);
-			productName = MapplyUITests;
-			productReference = A58503322F3A618700C444DF /* MapplyUITests.xctest */;
+			productName = MapChatUITests;
+			productReference = A58503322F3A618700C444DF /* MapChatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A585030F2F3A618500C444DF /* Build configuration list for PBXProject "Mapply" */;
+			buildConfigurationList = A585030F2F3A618500C444DF /* Build configuration list for PBXProject "MapChat" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A58503132F3A618500C444DF /* Mapply */,
-				A58503272F3A618700C444DF /* MapplyTests */,
-				A58503312F3A618700C444DF /* MapplyUITests */,
+				A58503132F3A618500C444DF /* MapChat */,
+				A58503272F3A618700C444DF /* MapChatTests */,
+				A58503312F3A618700C444DF /* MapChatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		A585032A2F3A618700C444DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A58503132F3A618500C444DF /* Mapply */;
+			target = A58503132F3A618500C444DF /* MapChat */;
 			targetProxy = A58503292F3A618700C444DF /* PBXContainerItemProxy */;
 		};
 		A58503342F3A618700C444DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A58503132F3A618500C444DF /* Mapply */;
+			target = A58503132F3A618500C444DF /* MapChat */;
 			targetProxy = A58503332F3A618700C444DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -295,7 +295,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Mapply/Info.plist;
+				INFOPLIST_FILE = MapChat/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -340,7 +340,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Mapply/Info.plist;
+				INFOPLIST_FILE = MapChat/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -509,7 +509,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapply.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mapply";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapChat";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -535,7 +535,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapply.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mapply";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapChat";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
@@ -560,7 +560,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Mapply;
+				TEST_TARGET_NAME = MapChat;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -585,7 +585,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Mapply;
+				TEST_TARGET_NAME = MapChat;
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
@@ -593,7 +593,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A585030F2F3A618500C444DF /* Build configuration list for PBXProject "Mapply" */ = {
+		A585030F2F3A618500C444DF /* Build configuration list for PBXProject "MapChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A585033E2F3A618700C444DF /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A585033B2F3A618700C444DF /* Build configuration list for PBXNativeTarget "Mapply" */ = {
+		A585033B2F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A585033C2F3A618700C444DF /* Debug */,
@@ -611,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A58503402F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapplyTests" */ = {
+		A58503402F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A58503412F3A618700C444DF /* Debug */,
@@ -620,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A58503432F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapplyUITests" */ = {
+		A58503432F3A618700C444DF /* Build configuration list for PBXNativeTarget "MapChatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A58503442F3A618700C444DF /* Debug */,
