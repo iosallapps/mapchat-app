@@ -1,0 +1,16 @@
+//
+//  MapChatTests.swift
+//  MapChatTests
+//
+//  Created by Vlad Tudosoiu on 09.02.2026.
+//
+
+import Testing
+
+struct MapChatTests {
+
+    @Test func example() async throws {
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    }
+
+}

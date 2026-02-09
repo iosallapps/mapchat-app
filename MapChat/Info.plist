@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Background Modes -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>location</string>
+		<string>fetch</string>
+	</array>
+
+	<!-- Location Permissions -->
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>MapChat needs your location to show you on the map and share with your travel buddies throughout your trips.</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>MapChat needs your location to show you on the map and share with your friends.</string>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>MapChat needs your location in the background to keep your friends updated during trips.</string>
+
+	<!-- Camera Permission -->
+	<key>NSCameraUsageDescription</key>
+	<string>MapChat needs access to your camera to take photos and share them in chat.</string>
+
+	<!-- Photo Library Permissions -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MapChat needs access to your photo library to share photos in chat.</string>
+
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>MapChat needs access to save photos to your photo library.</string>
+
+	<!-- Microphone Permission -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MapChat needs access to your microphone for voice messages and calls.</string>
+
+	<!-- Contacts Permission (Optional for finding friends) -->
+	<key>NSContactsUsageDescription</key>
+	<string>MapChat can access your contacts to help you find friends on the app.</string>
+
+	<!-- Face ID / Touch ID -->
+	<key>NSFaceIDUsageDescription</key>
+	<string>MapChat uses Face ID to secure your account.</string>
+
+	<!-- MapBox Token (placeholder) -->
+	<key>MBXAccessToken</key>
+	<string>YOUR_MAPBOX_ACCESS_TOKEN_HERE</string>
+
+	<!-- App Transport Security -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+
+	<!-- Supported Interface Orientations -->
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+
+	<!-- Status Bar Style -->
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+
+	<!-- Launch Screen -->
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchScreenBackground</string>
+		<key>UIImageName</key>
+		<string>LaunchLogo</string>
+	</dict>
+</dict>
+</plist>
